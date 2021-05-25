@@ -1,0 +1,43 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-size: 1rem;
+}
+header > div {
+  width: 100%;
+  margin: 0;
+}
+header > div h1 {
+  padding: 1.1rem 0 1.2rem 1rem;
+}
+
+.rewards h2 {
+  height: 16rem;
+  background-position: right bottom;
+}
+.rewards h2 span {
+  padding: 5.4rem 0 0;
+  vertical-align: top;
+}
+
+.rewards .info {
+  padding: 1rem 0 0 17rem;
+  height: 16.75rem;
+}
+.rewards .left {
+  float: none;
+}
+.rewards .right {
+  float: none;
+}
+
+.rewards .top_btn {
+  padding: 0.75rem 0 0;
+}
+.rewards .btm {
+  padding: 1.4rem 0 0;
+}
+.rewards .btm .right {
+  padding: 0.7rem 0 0;
+}
