@@ -1,0 +1,113 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-size: 1rem;
+}
+header {
+  border-top: none;
+}
+header > div {
+  width: 100%;
+  margin: 0;
+}
+header > div h1 {
+  padding: 0.8125rem 0 0.75rem 0.625rem;
+}
+header h1 img {
+  width: 2.8125rem;
+}
+header > div nav {
+  display: none;
+}
+header > div .spot {
+  right: 4.5rem;
+  top: 1rem;
+}
+header > div .spot i {
+  display: inline-block;
+  font-size: 2.5rem;
+}
+header .total {
+  display: inline-block;
+  position: absolute;
+  right: 0.75rem;
+  top: 1rem;
+  font-size: 2.5rem;
+}
+header > div .spot li a {
+  padding: 0;
+}
+header > div .spot li ~ li {
+  padding-left: 1.6875rem;
+}
+header > div .spot li ~ li a:after {
+  display: none;
+}
+header > div .spot li:nth-child(2),
+header > div .spot li:nth-child(3),
+header > div .spot li:nth-child(5) {
+  display: none;
+}
+header > div .total span,
+header > div .spot li span {
+  position: absolute;
+  left: -10000%;
+}
+.visual > div img {
+  width: 100%;
+}
+.visual > div div.img1 {
+  min-width: 12rem;
+  width: 40%;
+}
+.visual > div div.img1 img {
+  width: 100%;
+}
+.visual > div div.img2 {
+  min-width: 12rem;
+  width: 54%;
+  top: 10.7rem;
+}
+.visual > div div.img3 {
+  min-width: 12rem;
+  width: 41%;
+}
+.visual > div div.img4 {
+  left: 60%;
+  min-width: 12rem;
+  width: 37%;
+}
+
+.rewards > div {
+  width: 100%;
+}
+.rewards h2 {
+  height: 16rem;
+  background-position: right bottom;
+}
+.rewards h2 span {
+  padding: 5.4rem 0 0;
+  vertical-align: top;
+}
+
+.rewards .info {
+  padding: 1rem 0 0 17rem;
+  height: 16.75rem;
+}
+.rewards .left {
+  float: none;
+}
+.rewards .right {
+  float: none;
+}
+
+.rewards .top_btn {
+  padding: 0.75rem 0 0;
+}
+.rewards .btm {
+  padding: 1.4rem 0 0;
+}
+.rewards .btm .right {
+  padding: 0.7rem 0 0;
+}
